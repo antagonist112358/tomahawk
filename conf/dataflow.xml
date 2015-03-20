@@ -1,0 +1,34 @@
+<configuration>
+
+        <property>
+            <name>dataflow.default.threadpool.size</name>
+            <value>5</value>
+        </property>
+
+        <property>
+            <name>dataflow.hdfs.core-site.path</name>
+            <value>/etc/gphd/hadoop/conf/core-site.xml</value>
+        </property>
+
+        <property>
+            <name>dataflow.hdfs.hdfs-site.path</name>
+            <value>/etc/gphd/hadoop/conf/hdfs-site.xml</value>
+        </property>
+
+        <property>
+            <name>dataflow.hdfs.namenode</name>
+            <value>yacname2.samsungaustin.com:8020</value>
+        </property>
+
+        <property>
+            <name>dataflow.hivedb.classpath</name>
+            <value>com.samsungaustin.yac.workflow.DatabaseLibrary.DatabaseLibrary.HiveDB</value>
+        </property>
+
+        <property>
+            <name>dataflow.hive.metastore</name>
+            <value>yacmaster3.samsungaustin.com</value>
+        </property>
+
+</configuration>
+
