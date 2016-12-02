@@ -21,7 +21,7 @@
     </appender>
 
 
-    <logger name="com.samsungaustin.yac">
+    <logger name="net.mentalarray.doozie">
         <level value="DEBUG" />
         <!--<appender-ref ref="console" />-->
     </logger>
